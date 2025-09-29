@@ -1,0 +1,112 @@
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/15/21/50/play-stone-1743645_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+  z-index: -1;
+}
+
+#home {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#home h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  animation: jumpIn 1s ease-out forwards;
+}
+
+@keyframes jumpIn {
+  0% {
+    transform: scale(0.5) translateY(-50px);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.1) translateY(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+#home .catchy-statement {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: var(--light-color); /* A color that goes with the background */
+  animation: dynamicPlay 3s ease-in-out infinite alternate;
+  opacity: 0;
+}
+
+#home .catchy-statement:nth-of-type(1) { animation-delay: 0.5s; }
+#home .catchy-statement:nth-of-type(2) { animation-delay: 1s; }
+
+@keyframes dynamicPlay {
+  0% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05) rotate(2deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 0.8;
+  }
+}
+
+#home p.lead {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.floating-words-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.floating-word {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: rgba(244, 162, 97, 0.7); /* --primary-color with transparency */
+  color: white;
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating-word.word-1 { animation-delay: 0s; }
+.floating-word.word-2 { animation-delay: 1s; }
+.floating-word.word-3 { animation-delay: 2s; }
+.floating-word.word-4 { animation-delay: 3s; }
+.floating-word.word-5 { animation-delay: 4s; }
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes slideMotion {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
