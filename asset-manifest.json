@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/brightfeet-childcare-services-ltd/static/css/main.7030aaf3.css",
-    "main.js": "/brightfeet-childcare-services-ltd/static/js/main.993fcf1a.js",
+    "main.js": "/brightfeet-childcare-services-ltd/static/js/main.f6d93a4a.js",
     "static/js/453.9e482686.chunk.js": "/brightfeet-childcare-services-ltd/static/js/453.9e482686.chunk.js",
     "index.html": "/brightfeet-childcare-services-ltd/index.html",
     "main.7030aaf3.css.map": "/brightfeet-childcare-services-ltd/static/css/main.7030aaf3.css.map",
-    "main.993fcf1a.js.map": "/brightfeet-childcare-services-ltd/static/js/main.993fcf1a.js.map",
+    "main.f6d93a4a.js.map": "/brightfeet-childcare-services-ltd/static/js/main.f6d93a4a.js.map",
     "453.9e482686.chunk.js.map": "/brightfeet-childcare-services-ltd/static/js/453.9e482686.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7030aaf3.css",
-    "static/js/main.993fcf1a.js"
+    "static/js/main.f6d93a4a.js"
   ]
 }
