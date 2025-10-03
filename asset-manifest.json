@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7030aaf3.css",
-    "main.js": "/static/js/main.5d577348.js",
-    "static/js/453.9e482686.chunk.js": "/static/js/453.9e482686.chunk.js",
-    "index.html": "/index.html",
-    "main.7030aaf3.css.map": "/static/css/main.7030aaf3.css.map",
-    "main.5d577348.js.map": "/static/js/main.5d577348.js.map",
-    "453.9e482686.chunk.js.map": "/static/js/453.9e482686.chunk.js.map"
+    "main.css": "https://www.brightfeetchildcareltd.com/static/css/main.7030aaf3.css",
+    "main.js": "https://www.brightfeetchildcareltd.com/static/js/main.68e34afc.js",
+    "static/js/453.9e482686.chunk.js": "https://www.brightfeetchildcareltd.com/static/js/453.9e482686.chunk.js",
+    "index.html": "https://www.brightfeetchildcareltd.com/index.html",
+    "main.7030aaf3.css.map": "https://www.brightfeetchildcareltd.com/static/css/main.7030aaf3.css.map",
+    "main.68e34afc.js.map": "https://www.brightfeetchildcareltd.com/static/js/main.68e34afc.js.map",
+    "453.9e482686.chunk.js.map": "https://www.brightfeetchildcareltd.com/static/js/453.9e482686.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7030aaf3.css",
-    "static/js/main.5d577348.js"
+    "static/js/main.68e34afc.js"
   ]
 }
