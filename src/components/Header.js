@@ -23,9 +23,7 @@ const Header = () => {
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
             </li>
-            <li className="nav-item">
-              <Link className="btn btn-primary" to="/register">Register</Link>
-            </li>
+
           </ul>
         </div>
       </div>
